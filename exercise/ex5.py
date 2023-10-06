@@ -23,7 +23,7 @@ when I call get_a_place(), I can get a random place.
 and then print it together.
 
 ex:
-a cat in a house
+a cat in the house
 
 '''
 
@@ -34,7 +34,7 @@ def get_a_animal():
     return random.choice(animal_list)
 
 def get_a_place():
-    place_list = ['on the beach','in a house','in the snow']
+    place_list = ['on the beach','in the house','in the snow']
     return random.choice(place_list)
 
 if __name__ == '__main__':
