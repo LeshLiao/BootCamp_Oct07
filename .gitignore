@@ -1,6 +1,7 @@
 exercise/secret.py
 happy_bootcamp
-Image_generation
+Image_generation/secret.py
+Image_generation/ImageGenerator.py
 LangChain
 practice
 .DS_Store
