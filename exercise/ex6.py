@@ -1,4 +1,4 @@
-# openai
+# openai - Python Pip Package
 
 import openai
 import secret
@@ -6,8 +6,8 @@ import ex5
 
 openai.api_key = secret.API_KEY
 
-my_prompt = ex5.get_a_target() + " " + ex5.get_a_place()
-print(my_prompt)
+my_prompt = ex5.get_a_animal() + " " + ex5.get_a_place()
+print("prompt= " + my_prompt)
 
 response = openai.Image.create (
     prompt=my_prompt,

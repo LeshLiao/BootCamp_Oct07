@@ -1,5 +1,18 @@
-# print
-# To concatenate a string and a number
+# print variable
+# To concatenate a string
+
+'''
+Please declare 2 string variable
+
+first_name
+last_name
+
+then concatenate two variable print it.
+
+ex:
+Larry Page
+
+'''
 
 first_name = "Larry"
 last_name = "Page"

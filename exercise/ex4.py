@@ -1,11 +1,30 @@
 # function
 
-def get_a_int():
-    money = 10
-    return money
+'''
+Please declare a function to calculate rectangle area
 
-def get_a_string():
-    my_string = "this is ten."
-    return my_string
+function name: rectangle_area
+2 parameter: width, height
 
-print(str(get_a_int()) + get_a_string())
+call the function rectangle_area(3,5)
+if area greater than 10,
+    print "big rectangle area = 15"
+
+if area less than 10 or equal 10,
+    print "normal rectangle area = 6"
+
+ex:  rectangle_area(2,3)
+normal rectangle area = 6
+
+'''
+
+def rectangle_area(width,height):
+    area = width * height
+    if area > 10:
+        result = "big rectangle area = " + str(area)
+        return result
+    else:
+        result = "normal rectangle area = " + str(area)
+        return result
+
+print(rectangle_area(2,3))
