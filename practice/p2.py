@@ -1,4 +1,4 @@
-# variable integer
+# variable integer boolean
 # addition / subtraction/ multiplication / division
 # convert integer to string
 

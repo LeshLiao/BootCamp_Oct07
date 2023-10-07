@@ -16,10 +16,13 @@ def read_rgba_image(path,resize) -> bytes:
 image_bytes = read_rgba_image("Image_generation/img/image.png",resize=(1024,1024))
 mask_bytes = read_rgba_image("Image_generation/img/mask.png",resize=(1024,1024))
 
+my_prompt = "a gold retriever is sitting there"
+print(my_prompt)
+
 response = openai.Image.create_edit(
     image=image_bytes,
     mask=mask_bytes,
-    prompt="There is a cat beind the dog.",
+    prompt=my_prompt,
     n=1,
     size="1024x1024"
 )
