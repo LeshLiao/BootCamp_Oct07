@@ -5,8 +5,10 @@ Please declare 1 variable
 
 age
 
-if age is greater than 18, print "is adult"
-or print "not an adult"
+If the age is greater than or equal to 18, 
+    print "is adult"
+If the age is less than 18,
+    print "not an adult"
 
 ex: (age=20)
 is adult
