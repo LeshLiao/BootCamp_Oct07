@@ -2,6 +2,9 @@ import openai
 import secret
 from io import BytesIO
 from PIL import Image
+
+# pip3 install Pillow
+
 openai.api_key = secret.API_KEY
 
 def read_rgba_image(path,resize) -> bytes:
